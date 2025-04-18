@@ -19,7 +19,7 @@ const page = () => {
       <div className='max-w-7xl mx-auto px-4'>
         <Sliders pics={sliderPics} />
         <HeroSection/>
-        <WhyChoose/>
+        
         <OurCoachingProgarm/>
       </div>
     </div>

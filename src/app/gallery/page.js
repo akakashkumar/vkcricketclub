@@ -1,0 +1,44 @@
+'use client'
+import Sliders from '@/components/Sliders'
+import React, { useEffect, useState } from 'react'
+import LocomotiveScroll from 'locomotive-scroll';
+
+const page = () => {
+     const [sliderPics, setSliderPics] = useState(['images/banner.jpg', 'images/banner.jpg', 'images/banner.jpg', 'images/banner.jpg'])
+    const [pics, setPics] = useState([
+        'images/banner.jpg',
+        'images/banner.jpg',
+        'images/banner.jpg',
+        'images/banner.jpg',
+        'images/banner.jpg',
+        'images/banner.jpg',
+        'images/banner.jpg',
+        'images/banner.jpg',
+        'images/banner.jpg',
+        'images/banner.jpg',
+        'images/banner.jpg',
+        'images/banner.jpg',
+    ])
+      useEffect(() => {
+         const locomotiveScroll = new LocomotiveScroll();
+       
+         
+       }, [])
+  return (
+    <div>
+        <section className='max-w-7xl mx-auto px-4 py-5'>
+            <Sliders pics={sliderPics} />
+            <h2 className='text-3xl font-[font1] text-orange-600'>Gallery</h2>
+            <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-5'>
+                {pics.map((pic, index)=>{
+                    return(
+                        <img className='rounded ' src={pic} alt="image" />
+                    )
+                })}
+            </div>
+        </section>
+    </div>
+  )
+}
+
+export default page
