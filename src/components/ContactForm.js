@@ -48,25 +48,25 @@ const ContactForm = () => {
           </h3>
           <form className="flex flex-col gap-5" action="">
             <input
-              className="p-2 px-4 border lg:w-[300px] rounded"
+              className="p-2 px-4 border text-xl lg:w-[400px] rounded"
               required
               type="text"
               placeholder="Enter name "
             />
             <input
-              className="p-2 px-4 border lg:w-[300px] rounded"
+              className="p-2 px-4 border lg:w-[400px] text-xl rounded"
               required
               type="number"
               placeholder="Enter phone number"
             />
             <input
-              className="p-2 px-4 border lg:w-[300px] rounded"
+              className="p-2 px-4 border lg:w-[400px] text-xl rounded"
               required
               type="email"
               placeholder="Enter email"
             />
             <textarea
-              className="h-24 lg:h-40 border rounded p-2 px-4"
+              className="max-h-24  lg:h-40 lg:w-[400px] text-xl border rounded p-2 px-4"
               required
               name=""
               id=""
