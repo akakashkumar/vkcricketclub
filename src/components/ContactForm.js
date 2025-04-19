@@ -44,47 +44,45 @@ const ContactForm = () => {
             );
           })}
         </div>
-        <div className="  ">
+        <div className="w-full lg:w-1/2">
           <Card>
             <CardHeader>
               <CardTitle>
-                {" "}
-                <h3 className="mb-3 text-center text-2xl font-medium">
+                
+                <h3 className="text-center text-xl sm:text-2xl lg:text-3xl">
                   Send Us a Message
                 </h3>
               </CardTitle>
             </CardHeader>
             <CardContent>
-              
-                <form className="flex flex-col gap-5" action="">
-                  <input
-                    className="p-2 px-4 border text-xl lg:w-[400px] rounded"
-                    required
-                    type="text"
-                    placeholder="Enter name "
-                  />
-                  <input
-                    className="p-2 px-4 border lg:w-[400px] text-xl rounded"
-                    required
-                    type="number"
-                    placeholder="Enter phone number"
-                  />
-                  <input
-                    className="p-2 px-4 border lg:w-[400px] text-xl rounded"
-                    required
-                    type="email"
-                    placeholder="Enter email"
-                  />
-                  <textarea
-                    className="max-h-24  lg:h-40 lg:w-[400px] text-xl border rounded p-2 px-4"
-                    required
-                    name=""
-                    id=""
-                    placeholder="Ente Message"
-                  ></textarea>
-                  <Button className="pointer-cursor">Submit</Button>
-                </form>
-              
+              <form className="flex flex-col gap-5" action="">
+                <input
+                  className="p-2 px-4 border text-xl lg:w-full rounded"
+                  required
+                  type="text"
+                  placeholder="Enter name "
+                />
+                <input
+                  className="p-2 px-4 border lg:w-full text-xl rounded"
+                  required
+                  type="number"
+                  placeholder="Enter phone number"
+                />
+                <input
+                  className="p-2 px-4 border lg:w-full text-xl rounded"
+                  required
+                  type="email"
+                  placeholder="Enter email"
+                />
+                <textarea
+                  className="h-30  lg:h-40 lg:w-full text-xl border rounded p-2 px-4"
+                  required
+                  name=""
+                  id=""
+                  placeholder="Ente Message"
+                ></textarea>
+                <Button className="pointer-cursor">Submit</Button>
+              </form>
             </CardContent>
           </Card>
         </div>
