@@ -61,7 +61,7 @@ const Footer = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-10">
       <footer className=" grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:gap-10">
-        <div className=" flex items-center flex-col">
+        <div className=" flex  flex-col">
           <Link className="flex lg:gap-3 gap-2 items-center" href={"/"}>
             <img className="lg:h-10 h-7" src="images/logo.jpg" alt="logo" />
             <h6 className="lg:text-2xl text-sm text-blue-600  font-[font1]">

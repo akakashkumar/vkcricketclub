@@ -23,11 +23,11 @@ const Navbar = () => {
       path: "/about",
     },
     {
-      item: "Matches",
-      path: "/matches",
+      item: "Videos",
+      path: "/videos",
     },
     {
-      item: "Gallery",
+      item: "Images",
       path: "/gallery",
     },
     {

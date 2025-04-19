@@ -32,7 +32,7 @@ const page = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-5'>
                 {pics.map((pic, index)=>{
                     return(
-                        <img className='rounded ' src={pic} alt="image" />
+                        <img className='rounded-xl ' src={pic} alt="image" key={index}/>
                     )
                 })}
             </div>
