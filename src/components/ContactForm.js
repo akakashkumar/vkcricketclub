@@ -34,46 +34,59 @@ const ContactForm = () => {
           {contactDetail.map((item, index) => {
             return (
               <Card key={index}>
-                <CardHeader className='flex flex-col items-center '>
-                  <CardTitle className='text-5xl'>{item.icon}</CardTitle>
-                  <CardDescription className='text-2xl text-center'>{item.item}</CardDescription>
+                <CardHeader className="flex flex-col items-center ">
+                  <CardTitle className="text-5xl">{item.icon}</CardTitle>
+                  <CardDescription className="text-2xl text-center">
+                    {item.item}
+                  </CardDescription>
                 </CardHeader>
               </Card>
             );
           })}
         </div>
         <div className="  ">
-          <h3 className="mb-3 text-center text-2xl font-medium">
-            Send Us a Message
-          </h3>
-          <form className="flex flex-col gap-5" action="">
-            <input
-              className="p-2 px-4 border text-xl lg:w-[400px] rounded"
-              required
-              type="text"
-              placeholder="Enter name "
-            />
-            <input
-              className="p-2 px-4 border lg:w-[400px] text-xl rounded"
-              required
-              type="number"
-              placeholder="Enter phone number"
-            />
-            <input
-              className="p-2 px-4 border lg:w-[400px] text-xl rounded"
-              required
-              type="email"
-              placeholder="Enter email"
-            />
-            <textarea
-              className="max-h-24  lg:h-40 lg:w-[400px] text-xl border rounded p-2 px-4"
-              required
-              name=""
-              id=""
-              placeholder="Ente Message"
-            ></textarea>
-            <Button className="pointer-cursor">Submit</Button>
-          </form>
+          <Card>
+            <CardHeader>
+              <CardTitle>
+                {" "}
+                <h3 className="mb-3 text-center text-2xl font-medium">
+                  Send Us a Message
+                </h3>
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              
+                <form className="flex flex-col gap-5" action="">
+                  <input
+                    className="p-2 px-4 border text-xl lg:w-[400px] rounded"
+                    required
+                    type="text"
+                    placeholder="Enter name "
+                  />
+                  <input
+                    className="p-2 px-4 border lg:w-[400px] text-xl rounded"
+                    required
+                    type="number"
+                    placeholder="Enter phone number"
+                  />
+                  <input
+                    className="p-2 px-4 border lg:w-[400px] text-xl rounded"
+                    required
+                    type="email"
+                    placeholder="Enter email"
+                  />
+                  <textarea
+                    className="max-h-24  lg:h-40 lg:w-[400px] text-xl border rounded p-2 px-4"
+                    required
+                    name=""
+                    id=""
+                    placeholder="Ente Message"
+                  ></textarea>
+                  <Button className="pointer-cursor">Submit</Button>
+                </form>
+              
+            </CardContent>
+          </Card>
         </div>
       </section>
     </div>
