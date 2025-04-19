@@ -29,6 +29,7 @@ const ContactForm = () => {
   ]);
   return (
     <div>
+      <h2 className="text-2xl mt-10 mb-3 sm:text-3xl md:text-4xl lg:text-5xl text-yellow-500 font-medium font-[font2]">Contact Us</h2>
       <section className="  py-5 flex flex-col  lg:flex-row items-center gap-5 lg:gap-10 xl:gap-20">
         <div className=" w-full lg:w-1/2 flex flex-col gap-5">
           {contactDetail.map((item, index) => {
