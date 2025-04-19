@@ -10,7 +10,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { IoMenuSharp } from "react-icons/io5";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const Navbar = () => {
   const [navItem, setNavItem] = useState([
@@ -64,7 +64,7 @@ const Navbar = () => {
            <ModeToggle />
             <Sheet open={open} onOpenChange={setOpen}>
               <SheetTrigger>
-              <IoMenuSharp className="text-2xl"/>
+              <RxHamburgerMenu className="text-3xl" />
               </SheetTrigger>
               <SheetContent className={`w-[60vw]`}>
                <ul className="p-5 mt-3">
