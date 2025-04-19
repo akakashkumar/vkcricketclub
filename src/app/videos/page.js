@@ -65,7 +65,7 @@ const page = () => {
               <div key={index} >
                 <h2 className="text-xl  mb-2 font-medium">{video.title}</h2>
                 <iframe
-                    className="w-full rounded-xl border"
+                    className="w-full h-[450px] rounded border"
                     src={video.video}
                     title="YouTube video player"
                     
