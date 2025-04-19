@@ -38,7 +38,7 @@ const Footer = () => {
     },
     {
       icon: <FaLocationDot />,
-      item: "Near Airport, Hundru Ranchi, Jharkhand",
+      item: "Near Birsa Mundra Airport, Hundru Ranchi, Jharkhand",
     },
   ]);
   const [socialLinks, setSocialLinks] = useState([
