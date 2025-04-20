@@ -117,18 +117,16 @@ const ContactForm = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {socialLinks.map((item, index) => {
             return (
-              <Link href={item.path} target="_blank" key={index}>
-              <Card >
-                
-                  <CardHeader className="flex flex-col items-center ">
+              <Card key={index}>
+                <CardHeader >
+                  <Link className="flex flex-col items-center gap-2" href={item.path} target="_blank">
                     <CardTitle className="text-5xl">{item.icon}</CardTitle>
                     <CardDescription className="text-2xl text-center">
                       {item.item}
                     </CardDescription>
-                  </CardHeader>
-               
+                  </Link>
+                </CardHeader>
               </Card>
-              </Link>
             );
           })}
         </div>
