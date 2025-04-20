@@ -5,7 +5,7 @@ const HeroSection = () => {
     <div>
       <section className="flex flex-col lg:flex-row justify-between gap-5 items-center lg:py-5">
         <div>
-          <h2 className="text-3xl text-center font-medium font-[font1]">Elevate Your Game with Expert Cricket Coaching in Ranchi</h2>
+          <h2 className="text-3xl text-center font-medium ">Elevate Your Game with Expert Cricket Coaching in Ranchi</h2>
           <p className="mt-2 text-lg">
             Ready to take your cricket skills to the next level? Vk Cricket Club
             provides professional coaching and top-notch facilities in Ranchi,

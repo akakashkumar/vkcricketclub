@@ -29,7 +29,7 @@ const page = () => {
     <div>
         <section className='max-w-7xl mx-auto px-4 py-5'>
             <Sliders pics={sliderPics} />
-            <h2 className='text-3xl font-[font1] text-orange-600'>Images</h2>
+            <h2 className='text-3xl  text-orange-600'>Images</h2>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-5'>
                 {pics.map((pic, index)=>{
                     return(

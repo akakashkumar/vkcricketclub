@@ -30,7 +30,7 @@ const OurCoachingProgarm = () => {
   return (
     <div>
       <div className="py-5">
-        <h2 className="text-3xl font-medium text-blue-600 font-[font2]">Our Coaching Program</h2>
+        <h2 className="text-3xl font-medium text-blue-600 ">Our Coaching Program</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mt-5">
           {ourProgram.map((program, index) => {
             return (

@@ -50,7 +50,7 @@ const ContactForm = () => {
   ]);
   return (
     <div>
-      <h2 className="text-2xl mt-5 mb-2 sm:text-3xl md:text-4xl lg:text-5xl text-yellow-500 font-medium font-[font2]">
+      <h2 className="text-2xl mt-5 mb-2 sm:text-3xl md:text-4xl lg:text-5xl text-yellow-500 font-medium ">
         Contact Us
       </h2>
       <section className="  flex flex-col  lg:flex-row items-center gap-5 lg:gap-10 xl:gap-20">
@@ -111,7 +111,7 @@ const ContactForm = () => {
         </div>
       </section>
       <div className="w-full py-5">
-        <h2 className="text-2xl lg:text-4xl xl:text-5xl mb-2 mt-5 font-[font2] text-blue-600 font-medium">
+        <h2 className="text-2xl lg:text-4xl xl:text-5xl mb-2 mt-5 text-blue-600 font-medium">
           Social Media Links
         </h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -121,7 +121,7 @@ const ContactForm = () => {
                 <CardHeader >
                   <Link className="flex flex-col items-center gap-2" href={item.path} target="_blank">
                     <CardTitle className="text-5xl">{item.icon}</CardTitle>
-                    <CardDescription className="text-2xl text-center text-blue-600 underline">
+                    <CardDescription className="text-2xl text-center hover:text-blue-700 text-blue-600 underline">
                       {item.item}
                     </CardDescription>
                   </Link>

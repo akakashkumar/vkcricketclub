@@ -5,7 +5,7 @@ const LocationMap = () => {
   return (
     <div>
       <div>
-        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl my-5 text-blue-600 font-medium font-[font2]">Google Map</h2>
+        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl my-5 text-blue-600 font-medium ">Google Map</h2>
         <Link className="text-xl underline text-blue-600 " href='https://maps.app.goo.gl/sJbUH5e79QGxAqBf9' target="_blank">Google map links</Link>
         <iframe
         className="border w-full h-[75vh]  mt-5 rounded-xl"

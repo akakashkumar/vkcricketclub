@@ -69,7 +69,7 @@ const Footer = () => {
         <div className=" flex  flex-col">
           <Link className="flex lg:gap-3 gap-2 items-center" href={"/"}>
             <img className="lg:h-10 h-7" src="logo.png" alt="logo" />
-            <h6 className="lg:text-2xl text-sm text-blue-600  font-[font1]">
+            <h6 className="lg:text-2xl text-sm text-blue-600  ">
               Vk Cricket Club
             </h6>
           </Link>
@@ -118,7 +118,7 @@ const Footer = () => {
                   key={i}
                 >
                   {e.icon}
-                  <Link href={e.path} target="_blank">
+                  <Link className="text-blue-600 underline hover:text-blue-700" href={e.path} target="_blank">
                     {e.item}
                   </Link>
                 </li>
