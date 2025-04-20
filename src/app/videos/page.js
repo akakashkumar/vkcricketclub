@@ -65,11 +65,7 @@ const page = () => {
               <div key={index} >
                 <h2 className="text-xl  mb-2 font-medium">{video.title}</h2>
                 <iframe
-<<<<<<< HEAD
                     className="w-full h-[72vh] rounded border"
-=======
-                    className="w-full rounded-xl border"
->>>>>>> parent of 9bf4044 (update video size)
                     src={video.video}
                     title="YouTube video player"
                     
