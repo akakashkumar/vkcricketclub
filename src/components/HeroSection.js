@@ -13,7 +13,7 @@ const HeroSection = () => {
             master the fundamentals and excel in your cricketing journey.
           </p>
         </div>
-        <img className="w-full lg:w-1/2  rounded" src="images/banner.jpg" alt="banner" />
+        <img className="w-full lg:w-1/2  rounded" src="banner.jpg" alt="banner" />
       </section>
     </div>
   );
