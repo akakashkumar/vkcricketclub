@@ -31,26 +31,28 @@ const ContactForm = () => {
       item: "Near Birsa Mundra Airport, Hundru Ranchi, Jharkhand",
     },
   ]);
-   const [socialLinks, setSocialLinks] = useState([
-      {
-        item: "Instagram",
-        icon: <FaInstagram />,
-        path: "https://www.instagram.com/vkcricketclub",
-      },
-      {
-        item: "Facebook",
-        icon: <FaFacebook />,
-        path: "https://www.facebook.com/profile.php?id=61565353854290",
-      },
-      {
-        item: "Youtube",
-        icon: <FaYoutube />,
-        path: "https://www.youtube.com/@VkcricketClub-o3b",
-      },
-    ]);
+  const [socialLinks, setSocialLinks] = useState([
+    {
+      item: "Instagram",
+      icon: <FaInstagram />,
+      path: "https://www.instagram.com/vkcricketclub",
+    },
+    {
+      item: "Facebook",
+      icon: <FaFacebook />,
+      path: "https://www.facebook.com/profile.php?id=61565353854290",
+    },
+    {
+      item: "Youtube",
+      icon: <FaYoutube />,
+      path: "https://www.youtube.com/@VkcricketClub-o3b",
+    },
+  ]);
   return (
     <div>
-      <h2 className="text-2xl mt-5 mb-2 sm:text-3xl md:text-4xl lg:text-5xl text-yellow-500 font-medium font-[font2]">Contact Us</h2>
+      <h2 className="text-2xl mt-5 mb-2 sm:text-3xl md:text-4xl lg:text-5xl text-yellow-500 font-medium font-[font2]">
+        Contact Us
+      </h2>
       <section className="  flex flex-col  lg:flex-row items-center gap-5 lg:gap-10 xl:gap-20">
         <div className=" w-full lg:w-1/2 flex flex-col gap-5">
           {contactDetail.map((item, index) => {
@@ -70,7 +72,6 @@ const ContactForm = () => {
           <Card>
             <CardHeader>
               <CardTitle>
-                
                 <h3 className="text-center text-xl sm:text-2xl lg:text-3xl">
                   Send Us a Message
                 </h3>
@@ -110,23 +111,27 @@ const ContactForm = () => {
         </div>
       </section>
       <div className="w-full py-5">
-          <h2 className="text-2xl lg:text-4xl xl:text-5xl mb-2 mt-5 font-[font2] text-blue-600 font-medium">Social Media Links</h2>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {socialLinks.map((item, index)=>{
-            return(
-              <Card key={index}>
-             <Link href={item.path} target="_blank">
-             <CardHeader className="flex flex-col items-center ">
-                <CardTitle className="text-5xl">{item.icon}</CardTitle>
-                <CardDescription className="text-2xl text-center">
-                  {item.item}
-                </CardDescription>
-              </CardHeader>
-             </Link>
-            </Card>
-            )
+        <h2 className="text-2xl lg:text-4xl xl:text-5xl mb-2 mt-5 font-[font2] text-blue-600 font-medium">
+          Social Media Links
+        </h2>
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+          {socialLinks.map((item, index) => {
+            return (
+              <Link href={item.path} target="_blank" key={index}>
+              <Card >
+                
+                  <CardHeader className="flex flex-col items-center ">
+                    <CardTitle className="text-5xl">{item.icon}</CardTitle>
+                    <CardDescription className="text-2xl text-center">
+                      {item.item}
+                    </CardDescription>
+                  </CardHeader>
+               
+              </Card>
+              </Link>
+            );
           })}
-          </div>
+        </div>
       </div>
     </div>
   );
