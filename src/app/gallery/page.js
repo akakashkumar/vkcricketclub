@@ -6,18 +6,18 @@ import LocomotiveScroll from 'locomotive-scroll';
 const page = () => {
      const [sliderPics, setSliderPics] = useState(['images/banner.jpg', 'images/banner.jpg', 'images/banner.jpg', 'images/banner.jpg'])
     const [pics, setPics] = useState([
-        'images/banner.jpg',
-        'images/banner.jpg',
-        'images/banner.jpg',
-        'images/banner.jpg',
-        'images/banner.jpg',
-        'images/banner.jpg',
-        'images/banner.jpg',
-        'images/banner.jpg',
-        'images/banner.jpg',
-        'images/banner.jpg',
-        'images/banner.jpg',
-        'images/banner.jpg',
+        'Images/banner.jpg',
+        'Images/banner.jpg',
+        'Images/banner.jpg',
+        'Images/banner.jpg',
+        'Images/banner.jpg',
+        'Images/banner.jpg',
+        'Images/banner.jpg',
+        'Images/banner.jpg',
+        'Images/banner.jpg',
+        'Images/banner.jpg',
+        'Images/banner.jpg',
+        'Images/banner.jpg',
     ])
       useEffect(() => {
          const locomotiveScroll = new LocomotiveScroll();

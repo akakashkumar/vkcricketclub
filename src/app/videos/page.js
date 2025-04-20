@@ -13,10 +13,10 @@ import {
 
 const page = () => {
   const [sliderPics, setsliderPics] = useState([
-    "images/banner.jpg",
-    "images/banner.jpg",
-    "images/banner.jpg",
-    "images/banner.jpg",
+    "Images/banner.jpg",
+    "Images/banner.jpg",
+    "Images/banner.jpg",
+    "Images/banner.jpg",
   ]);
   const [videos, setVideos] = useState([
     {
@@ -65,7 +65,7 @@ const page = () => {
               <div key={index} >
                 <h2 className="text-xl  mb-2 font-medium">{video.title}</h2>
                 <iframe
-                    className="w-full h-[450px] rounded border"
+                    className="w-full h-[72vh] rounded border"
                     src={video.video}
                     title="YouTube video player"
                     

@@ -2,11 +2,11 @@
 @import "tw-animate-css";
 @font-face {
   font-family: font1;
-  src: url('../../public/fonts/NeueMachina-Regular_DQCmjH1st.ttf');
+  src: url('../../public/Fonts/NeueMachina-Regular_DQCmjH1st.ttf');
 }
 @font-face {
   font-family: font2;
-  src: url('../../public/fonts/BAHNSCHRIFT.TTF');
+  src: url('../../public/Fonts/BAHNSCHRIFT.TTF');
 }
 
 @custom-variant dark (&:is(.dark *));
