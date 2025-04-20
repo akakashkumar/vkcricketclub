@@ -1,13 +1,13 @@
 "use client";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-import LocomotiveScroll from "locomotive-scroll";
+
 
 const Footer = () => {
   const qickLinks = [
@@ -59,11 +59,7 @@ const Footer = () => {
       path: "https://www.youtube.com/@VkcricketClub-o3b",
     },
   ]);
-       useEffect(() => {
-           const locomotiveScroll = new LocomotiveScroll();
-         
-           
-         }, [])
+      
   return (
     <div className="max-w-7xl mx-auto px-4 py-5">
       <footer className=" grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:gap-10">
