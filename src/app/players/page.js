@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import LocomotiveScroll from 'locomotive-scroll';
 
 const page = () => {
-     const [sliderPics, setSliderPics] = useState(['images/banner.jpg', 'images/banner.jpg', 'images/banner.jpg', 'images/banner.jpg'])
+     const [sliderPics, setSliderPics] = useState(['Images/banner.jpg', 'Images/banner.jpg', 'Images/banner.jpg', 'Images/banner.jpg'])
 
       useEffect(() => {
          const locomotiveScroll = new LocomotiveScroll();

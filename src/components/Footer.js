@@ -1,12 +1,13 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, {  useState } from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+
 
 const Footer = () => {
   const qickLinks = [
@@ -58,12 +59,13 @@ const Footer = () => {
       path: "https://www.youtube.com/@VkcricketClub-o3b",
     },
   ]);
+      
   return (
-    <div className="max-w-7xl mx-auto px-4 py-10">
+    <div className="max-w-7xl mx-auto px-4 py-5">
       <footer className=" grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:gap-10">
         <div className=" flex  flex-col">
           <Link className="flex lg:gap-3 gap-2 items-center" href={"/"}>
-            <img className="lg:h-10 h-7" src="images/logo.jpg" alt="logo" />
+            <img className="lg:h-10 h-7" src="Images/logo.png" alt="logo" />
             <h6 className="lg:text-2xl text-sm text-blue-600  font-[font1]">
               Vk Cricket Club
             </h6>
@@ -122,8 +124,8 @@ const Footer = () => {
           </ul>
         </div>
       </footer>
-      <h6 className=" text-center mt-5 text-sm text-slate-700 dark:text-slate-400">
-        © 2025 Copyright, Vk Cricket Club
+      <h6 className=" text-center mt-2 text-sm text-slate-700 dark:text-slate-400">
+      &copy; 2025 Copyright, Vk Cricket Club
       </h6>
     </div>
   );

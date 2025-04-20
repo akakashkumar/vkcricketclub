@@ -6,7 +6,7 @@ import ContactForm from '@/components/ContactForm';
 import LocationMap from '@/components/LocationMap';
 
 const page = () => {
-     const [sliderPics, setSliderPics] = useState(['images/banner.jpg', 'images/banner.jpg', 'images/banner.jpg', 'images/banner.jpg'])
+     const [sliderPics, setSliderPics] = useState(['Images/banner.jpg', 'Images/banner.jpg', 'Images/banner.jpg', 'Images/banner.jpg'])
 
       useEffect(() => {
          const locomotiveScroll = new LocomotiveScroll();
