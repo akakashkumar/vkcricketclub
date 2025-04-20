@@ -23,8 +23,8 @@ const Footer = () => {
       path: "/matches",
     },
     {
-      item: "Gallery",
-      path: "/gallery",
+      item: "Images",
+      path: "/images",
     },
   ];
   const [contactDetail, setContactDetail] = useState([

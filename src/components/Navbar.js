@@ -28,7 +28,7 @@ const Navbar = () => {
     },
     {
       item: "Images",
-      path: "/gallery",
+      path: "/images",
     },
     {
       item: "Contact",
