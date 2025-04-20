@@ -7,10 +7,10 @@ import LocationMap from "@/components/LocationMap";
 
 const page = () => {
   const [sliderPics, setSliderPics] = useState([
-    "Images/banner.jpg",
-    "Images/banner.jpg",
-    "Images/banner.jpg",
-    "Images/banner.jpg",
+    "banner.jpg",
+    "banner.jpg",
+    "banner.jpg",
+    "banner.jpg",
   ]);
 
   useEffect(() => {

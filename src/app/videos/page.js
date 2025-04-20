@@ -13,10 +13,10 @@ import {
 
 const page = () => {
   const [sliderPics, setsliderPics] = useState([
-    "Images/banner.jpg",
-    "Images/banner.jpg",
-    "Images/banner.jpg",
-    "Images/banner.jpg",
+    "banner.jpg",
+    "banner.jpg",
+    "banner.jpg",
+    "banner.jpg",
   ]);
   const [videos, setVideos] = useState([
     {

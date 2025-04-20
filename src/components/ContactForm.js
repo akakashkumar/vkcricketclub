@@ -121,7 +121,7 @@ const ContactForm = () => {
                 <CardHeader >
                   <Link className="flex flex-col items-center gap-2" href={item.path} target="_blank">
                     <CardTitle className="text-5xl">{item.icon}</CardTitle>
-                    <CardDescription className="text-2xl text-center">
+                    <CardDescription className="text-2xl text-center text-blue-600 underline">
                       {item.item}
                     </CardDescription>
                   </Link>

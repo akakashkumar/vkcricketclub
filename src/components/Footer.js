@@ -68,7 +68,7 @@ const Footer = () => {
       <footer className=" grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:gap-10">
         <div className=" flex  flex-col">
           <Link className="flex lg:gap-3 gap-2 items-center" href={"/"}>
-            <img className="lg:h-10 h-7" src="Images/logo.png" alt="logo" />
+            <img className="lg:h-10 h-7" src="logo.png" alt="logo" />
             <h6 className="lg:text-2xl text-sm text-blue-600  font-[font1]">
               Vk Cricket Club
             </h6>
