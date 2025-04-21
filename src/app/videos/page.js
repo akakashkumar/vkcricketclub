@@ -59,11 +59,12 @@ const page = () => {
     <div>
       <div className="max-w-7xl mx-auto px-4 py-5">
         <Sliders pics={sliderPics} />
+        <h2 className="text-2xl md:text-3xl lg:4xl xl:text-5xl mb-3 font-sans font-extralight">Videos</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {videos.map((video, index) => {
             return (
               <div key={index} >
-                <h2 className="text-xl  mb-2 font-medium">{video.title}</h2>
+                <h2 className="text-lg  mb-2 font-medium font-mono">{video.title}</h2>
                 <iframe
                     className="w-full h-[72vh] rounded border"
                     src={video.video}

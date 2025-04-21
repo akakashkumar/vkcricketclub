@@ -42,7 +42,7 @@ const Navbar = () => {
         <nav className=" mx-auto fixed left-0 top-0 right-0 py-4 px-4 lg:px-5 xl:px-7 2xl:px-96 w-full backdrop-blur-sm bg-white/30 dark:bg-black/30  flex justify-between items-center  ">
           <Link className="flex lg:gap-3 gap-2 items-center" href={"/"}>
             <img className="lg:h-10 h-7" src="logo.png" alt="logo" />
-            <h6 className="lg:text-2xl text-sm text-blue-600 font-[font1] ">
+            <h6 className="lg:text-2xl text-sm text-[#206a1d] font-sans dark:text-[#38ae33]">
               Vk Cricket Club
             </h6>
           </Link>
@@ -52,7 +52,7 @@ const Navbar = () => {
               {navItem.map((item, idx) => {
                 return (
                   <li key={idx}>
-                    <Link className="text-xl" href={item.path}>{item.item}</Link>
+                    <Link className="text-xl font-sans" href={item.path}>{item.item}</Link>
                   </li>
                 );
               })}
@@ -71,7 +71,7 @@ const Navbar = () => {
                 {navItem.map((item, idx)=>{
                     return(
                         <li key={idx} onClick={()=> setOpen(false)}>
-                            <Link className="text-xl" href={item.path}>{item.item}</Link>
+                            <Link className="text-xl font-sans" href={item.path}>{item.item}</Link>
                         </li>
                     )
                 })}

@@ -69,11 +69,11 @@ const Footer = () => {
         <div className=" flex  flex-col">
           <Link className="flex lg:gap-3 gap-2 items-center" href={"/"}>
             <img className="lg:h-10 h-7" src="logo.png" alt="logo" />
-            <h6 className="lg:text-2xl text-sm text-blue-600  ">
+            <h6 className="lg:text-2xl text-sm text-[#206a1d] dark:text-[#38ae33] font-sans">
               Vk Cricket Club
             </h6>
           </Link>
-          <h6 className="text-sm mt-2 text-slate-700 dark:text-slate-400 text-justify">
+          <h6 className="text-sm mt-2 text-slate-700 dark:text-slate-400 text-justify font-sans">
             Our cricket club is a community of passionate players and fans
             dedicated to promoting the spirit of cricket. We welcome players of
             all skill levels, host regular matches and training sessions, and

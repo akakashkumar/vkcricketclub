@@ -37,7 +37,7 @@ const page = () => {
     <div>
         <section className='max-w-7xl mx-auto px-4 py-5'>
             <Sliders pics={sliderPics} />
-            <h2 className='text-3xl  font-medium'>Images</h2>
+            <h2 className='text-2xl  md:text-3xl  lg:text-4xl xl:text-5xl font-extralight font-sans'>Images</h2>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-5'>
                 {pics.map((pic, index)=>{
                     return(
