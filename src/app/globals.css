@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@font-face {
+  font-family: 'font1';
+  src: url('../../public/NeueMachina-Regular_DQCmjH1st.ttf');
+}
+
 
 @custom-variant dark (&:is(.dark *));
 
