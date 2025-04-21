@@ -111,7 +111,7 @@ const ContactForm = () => {
         </div>
       </section>
       <div className="w-full py-5">
-        <h2 className="text-2xl lg:text-4xl xl:text-5xl mb-2 mt-5 text-blue-600 font-medium">
+        <h2 className="text-2xl lg:text-4xl xl:text-5xl mb-2 mt-5 font-medium">
           Social Media Links
         </h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">

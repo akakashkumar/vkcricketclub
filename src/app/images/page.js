@@ -7,18 +7,26 @@ const page = () => {
      const [sliderPics, setSliderPics] = useState(['banner.jpg',
          'banner.jpg', 'banner.jpg', 'banner.jpg'])
     const [pics, setPics] = useState([
-        'banner.jpg',
-        'banner.jpg',
-        'banner.jpg',
-        'banner.jpg',
-        'banner.jpg',
-        'banner.jpg',
-        'banner.jpg',
-        'banner.jpg',
-        'banner.jpg',
-        'banner.jpg',
-        'banner.jpg',
-        'banner.jpg',
+      
+     'img.png',
+       'img1.png',
+       'img2.png',
+       'img3.png',
+       'img4.png',
+       'img5.png',
+       'img6.png',
+       'img7.png',
+       'img8.png',
+       'img9.png',
+       'img10.png',
+       
+       'img12.png',
+       'img13.png',
+       'img14.png',
+       'img15.png',
+       'img16.png',
+       'img17.png',
+      
     ])
       useEffect(() => {
          const locomotiveScroll = new LocomotiveScroll();
@@ -29,11 +37,11 @@ const page = () => {
     <div>
         <section className='max-w-7xl mx-auto px-4 py-5'>
             <Sliders pics={sliderPics} />
-            <h2 className='text-3xl  text-orange-600'>Images</h2>
+            <h2 className='text-3xl  font-medium'>Images</h2>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-5'>
                 {pics.map((pic, index)=>{
                     return(
-                        <img className=' rounded' src={pic} alt="image" key={index}/>
+                        <img className='w-full rounded' src={pic} alt="image" key={index}/>
                     )
                 })}
             </div>

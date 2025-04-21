@@ -52,7 +52,7 @@ const Navbar = () => {
               {navItem.map((item, idx) => {
                 return (
                   <li key={idx}>
-                    <Link href={item.path}>{item.item}</Link>
+                    <Link className="text-xl" href={item.path}>{item.item}</Link>
                   </li>
                 );
               })}
@@ -67,11 +67,11 @@ const Navbar = () => {
               <RxHamburgerMenu className="text-3xl" />
               </SheetTrigger>
               <SheetContent className={`w-[60vw]`}>
-               <ul className="p-5 mt-3">
+               <ul className="p-5 mt-3 mb-1 flex flex-col gap-3">
                 {navItem.map((item, idx)=>{
                     return(
                         <li key={idx} onClick={()=> setOpen(false)}>
-                            <Link href={item.path}>{item.item}</Link>
+                            <Link className="text-xl" href={item.path}>{item.item}</Link>
                         </li>
                     )
                 })}

@@ -32,7 +32,7 @@ const page = () => {
       video: "https://youtube.com/embed/RnTr9bdrxPc?si=Vcvd5CeJtFUZqTno",
     },
     {
-      title: "junior team match",
+      title: "Junior team match",
       video: "https://youtube.com/embed/D67Y1gyZ-HU?si=Wzdea1Wpd1AaM91c",
     },
     {
@@ -44,11 +44,11 @@ const page = () => {
       video: "https://youtube.com/embed/12lQc-xBXXs?si=MSuHIDifaQUzRMmR",
     },
     {
-      title: "warm-up",
+      title: "Warm-up",
       video: "https://youtube.com/embed/Xk8Oyubi-Cs?si=W_skevmz5LhccMnY",
     },
     {
-      title: "pull shorts",
+      title: "Pull shorts",
       video: "https://youtube.com/embed/aVKSQJ02TMI?si=hjBzlgCNwrKB4lF5",
     },
   ]);
